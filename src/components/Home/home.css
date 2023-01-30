@@ -1,0 +1,69 @@
+.home{
+    height: 200px;
+    color: white;
+    margin-left: 300px;
+    /* background:linear-gradient(black,wheat,white);/ */
+}
+.homecnt{
+   
+    padding: 10px;
+    margin-top: 95px;
+    margin-left: 50px;
+}
+.homecnt h3{
+    color: rgba(218, 218, 25, 0.915);
+    margin-top: 10px;
+}
+a{
+    margin-left: 55px;
+    /* padding-left: 10px; */
+    margin-top:30px;
+    border-radius: 90px;
+    border: 2px solid yellow; 
+    background-color: orange;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: medium;
+    color:black;
+    cursor: pointer; 
+    width: 140px;
+    text-align: center;
+}
+a:hover{
+    background-color:white ;
+    color:black;
+    width: 150px;
+    text-align: center;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+.ahmed{
+    background-color: orangered;
+    margin-left: 20px;
+}
+.pec img{
+    width: 250px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+.sec{
+    box-shadow:15px 15px 15px -2px rgba(65, 63, 61, 0.713) ;
+    border-radius: 10px;
+    height:  400px;
+    width: 999px;
+    margin-top: 50px;
+    background-color: wheat;
+}
+.aa{
+    margin-top: 100px;
+}
+h4{
+    margin-bottom: -50px;
+}
+
+@media (min-width:1000px) {
+    .home{
+        height: auto;
+    }
+}
